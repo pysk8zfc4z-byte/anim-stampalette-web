@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/anim-stampalette-web/sw.js', { scope: '/anim-stampalette-web/' })})}
